@@ -1,11 +1,17 @@
+import { BrowserRouter } from "react-router"
 import Layout from "./layout/Layout.jsx"
+import Router from "./Routes/Router.jsx"
 
 function App() {
 
   return (
     <>
-      <Layout>
-      </Layout>
+    <BrowserRouter>
+    <Layout>
+      <Router/>
+    </Layout>
+    </BrowserRouter>
+      
     </>
   )
 }

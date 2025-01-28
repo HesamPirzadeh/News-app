@@ -1,0 +1,22 @@
+.home{
+    display: flex;
+    justify-content: space-between;
+    width: 93%;
+    margin-left: 3rem;
+    
+}
+
+.pc{
+    display: flex;
+    flex-direction: column;   
+}
+
+.sp {
+margin-left: 18.2rem;
+margin-top: 3.5rem;
+font-size: 1.5rem;
+}
+
+.sp span:nth-child(1){
+    font-weight: 700;
+}
